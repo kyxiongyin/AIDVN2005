@@ -79,8 +79,3 @@ class Ver:
                 print("UnMatching is found at %d for %s" % (p[1], p[0]))
 
 
-if __name__ == '__main__':
-    file = input(">>>")
-    v = Ver()
-    with open(file) as f:
-        v.ver(f.read())
